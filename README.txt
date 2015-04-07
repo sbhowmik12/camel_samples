@@ -1,11 +1,11 @@
-Java DSL Example
+Sample Apache Camel application 
 ==============
 
-This example shows how to work with files and JMS, using Spring to boot up
-Camel and configure the routes. 
+This example shows how to work with files  using Java DSL support in
+Camel to  configure the routes. 
 
-The example consumes messages from a queue and writes them to the file
-system.
+The example consumes messages from a file system and writes them to the file
+system after transformation.
 
 You will need to compile this example first:
   mvn compile
